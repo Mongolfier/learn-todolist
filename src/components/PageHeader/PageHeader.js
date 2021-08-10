@@ -1,9 +1,13 @@
+import './PageHeader.scss';
+
 function PageHeader() {
   return (
     <header className="page_header">
-      <h1>Мой TODO лист</h1>
+      <div className="container">
+        <h1>Мой TODO лист</h1>
+      </div>
     </header>
   );
 }
-  
-export default PageHeader;  
+
+export default PageHeader;

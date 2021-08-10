@@ -1,0 +1,40 @@
+.new_card__wrapper {
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5rem 3rem;
+    background-color: #9198e5;
+    color: #eeeeee;
+    border: none;
+    transition: all 0.2s;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    &:hover {
+      box-shadow: 0 5px 10px #bebebe;
+      background-color: #8089e4;
+    }
+
+    &:active {
+      box-shadow: 0 5px 10px #bebebe;
+      background-color: #5f66b4;
+    }
+
+    &::after {
+      content: "+";
+      position: absolute;
+      right: 3rem;
+      font-size: 2rem;
+      line-height: 2.2rem;
+      font-weight: 900;
+    }
+  }
+
+  .new_card__title {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }

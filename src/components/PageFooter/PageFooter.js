@@ -1,7 +1,11 @@
+import './PageFooter.scss'
+
 function PageFooter() {
   return (
     <footer className="page_footer">
-      <h2>Мой TODO лист</h2>
+      <div className="container">
+        footer
+      </div>
     </footer>
   );
 }
