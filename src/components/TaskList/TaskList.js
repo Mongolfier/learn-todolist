@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Task from '../Task/Task'
+import './TaskList.scss'
 
 function TaskList(props) {
   const tasks = props.tasks;
-  console.log(tasks)
   const taskList = tasks.map( task => <Task task={task} /> );
 
-
   return (
-    <section>
+    <section className="task_list">
       {taskList}
     </section >
   )

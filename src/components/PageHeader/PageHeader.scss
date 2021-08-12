@@ -1,6 +1,6 @@
 .page_header {
-  background-color: rgb(134, 52, 226);
-  color: #eeeeee;
+  background-color: #563d7c;
+  color: #f8f9fa;
   min-height: 5.5rem;
 }
 
@@ -29,7 +29,7 @@
 
   &:focus {
     border-radius: 1rem;
-    box-shadow: 0 0 0 3px rgb(103, 32, 184);;
+    box-shadow: 0 0 0 3px #563d7c;
     background-color: rgba(255, 255, 255,  0.2)
   }
 }
