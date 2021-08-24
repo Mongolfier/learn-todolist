@@ -1,6 +1,6 @@
-import './NewTask.scss'
+import './NewTaskForm.scss'
 
-function NewTask(props) {
+function NewTaskForm(props) {
   const task = props.task;
 
   return (
@@ -10,4 +10,4 @@ function NewTask(props) {
   )
 }
 
-export default NewTask;
+export default NewTaskForm;
